@@ -1,88 +1,110 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>포트폴리오</title>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
+      integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="./main.js"></script>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>포트폴리오</title>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"
-    integrity="sha512-UxP+UhJaGRWuMG2YC6LPWYpFQnsSgnor0VUF3BHdD83PS/pOpN+FYbZmrYN+ISX8jnvgVUciqP/fILOXDjZSwg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script defer src="./main.js"></script>
-  <link rel="stylesheet" href="./main.css">
-</head>
-
-<body>
-  <section class="banner">
-    <header>
-      <a href="#" class="logo">Portfolio</a>
-      <div class="menu_list">
-        <ion-icon name="menu-outline" class="menuBtn"></ion-icon>
-        <ion-icon name="close-outline" class="close"></ion-icon>
-      </div>
-    </header>
-    <div class="before">
-      <img src="./me.jpg" alt="img" class="person">
-    </div>
-
-    <div class="content">
-      <div class="contentBx">
-        <h4>안녕하세요</h4>
-        <h2>엉덩이가 무거운 웹 프론트엔드 개발자</h2>
-        <h3>김진 입니다</h3><br>        
-        <a href="https://github.com/kimjin2468" target="_blank">깃허브 둘러보기</a>
-        
-      </div>
-    </div>
-
-    <ul class="sci">
-      <li><a href="#"><img src="./facebook.png"></a></li>
-      <li><a href="#"><img src="./instagram.png"></a></li>
-      <li><a href="#"><img src="./twitter.png"></a></li>
-    </ul>
-
-    <ul class=menu>
-      <li><a href="/">Home</a></li>
-      <li>
-        <a href="#" class="about">About</a>
-        <div id="about">
-          <p>안녕하세요! 곱창집 CEO로 성공하고싶었으나 코로나로 인해 우디르급 태세전환으로 현재는
-            풀스택개발자를 꿈꾸고있는 김진 이라고 합니다.
-            코로나가 터지기 1년전, 곱창집을 차리고 싶어서 쓰리잡을 뛰며 곱창 손질 등 곱창에 대한 모든 공부를 마치고 가게를 오픈하려는 찰나 코로나 라는 큰 벽에 좌절하고 다른 직업에 대해 알아보던 중
-            상상을 현실로 만들 수 있는 개발자라는 직업이 너무 매력적이어서 이 직업을 택하게 되었습니다.<br>
-            개발자로써 역량을 갖추기 위해 이력서를 쓰는 지금 이 순간도 듀얼모니터로 vue.js 강의를 듣고있으며,<br> 대규모 프로젝트 시 부서간 협업과 원활한 커뮤니케이션을 위해 미리 대학시절에 과대
-            및 대의원회 홍보부장으로써 활동하며 준비했습니다.
-            제 일을 제 때 처리하지못해 타인에게 민폐를 끼치는것을 싫어합니다.<br> 주7일 쓰리잡을 뛰던 열정으로 열심히하겠습니다.
-            읽어주셔서 감사합니다!</p>
+  <body>
+    <section class="banner">
+      <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="menu_list">
+          <ion-icon name="menu-outline" class="menuBtn"></ion-icon>
+          <ion-icon name="close-outline" class="close"></ion-icon>
         </div>
-      </li>
-      <li>
-        <a href="#" class="work">Work</a>
-        <div id="work">
-          <a href="https://jinjinjara.netlify.app/" target="_blank">N-back 두뇌훈련 게임</a><br>
-          <a href="https://startbucksjin.netlify.app/" target="_blank">스타벅스 홈페이지 클론코딩</a><br>
-          <a href="https://overwatchs.netlify.app/" target="_blank">오버워치 캐릭터 화면</a>
+      </header>
+      <div class="before">
+        <img src="./me.jpg" alt="img" class="person" />
+      </div>
+
+      <div class="content">
+        <div class="contentBx">
+          <h4>안녕하세요</h4>
+          <h2>엉덩이가 무거운 웹 프론트엔드 개발자</h2>
+          <h3>김진 입니다</h3>
+          <br />
+          <a href="https://github.com/kimjin2468" target="_blank"
+            >깃허브 둘러보기</a
+          >
         </div>
-      </li>
-      <li>
-        <a href="#">Resume</a>
-      </li>
-      <li>
-        <a href="#" class="contact">Contact</a>         
-          <div id="contact">
-            010-9243-9240
-          </div>       
-      </li>
-    </ul>
+      </div>
 
-    <img src="1.png" class="elements" data-speed="8">
-    <img src="3.png" class="elements" data-speed="-10">
-    <img src="4.png" class="elements" data-speed="-6">
-  </section>
+      <ul class="sci">
+        <li>
+          <a href="#"><img src="./facebook.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./instagram.png" /></a>
+        </li>
+        <li>
+          <a href="#"><img src="./twitter.png" /></a>
+        </li>
+      </ul>
 
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-</body>
+      <ul class="menu">
+        <li><a href="/">홈으로</a></li>
+        <li>
+          <a href="#" class="about">About Me</a>
+          <div id="about">
+            <p>
+              안녕하세요! 곱창집 CEO로 성공하고싶었으나 코로나로 인해 우디르급
+              태세전환으로 현재는 풀스택개발자를 꿈꾸고있는 김진 이라고 합니다.
+              상상을 현실로 만들 수 있는 개발자라는 직업이 너무 매력적이어서 이
+              직업을 택하게 되었습니다.<br />
+              개발자로써 역량을 갖추기 위해 이력서를 쓰는 지금 이 순간도
+              듀얼모니터로 React.js 강의를 듣고있으며,<br />
+              대규모 프로젝트 시 부서간 협업과 원활한 커뮤니케이션을 위해 미리
+              대학시절에 과대 및 대의원회 홍보부장으로써 활동하며 준비했습니다.
+              제 일을 제 때 처리하지못해 타인에게 민폐를 끼치는것을
+              싫어합니다.<br />
+              주7일 쓰리잡을 뛰던 열정으로 열심히하겠습니다. 읽어주셔서
+              감사합니다!
+            </p>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="work">프로젝트</a>
+          <div id="work">
+            <a href="https://jinjinjara.netlify.app/" target="_blank"
+              >N-back 두뇌훈련 게임</a
+            ><br />
+            <a href="https://startbucksjin.netlify.app/" target="_blank"
+              >스타벅스 홈페이지 클론코딩</a
+            ><br />
+            <a href="https://overwatchs.netlify.app/" target="_blank"
+              >오버워치 캐릭터 화면</a
+            >
+          </div>
+        </li>
+        <li>
+          <a href="#" class="contact">Contact</a>
+          <div id="contact">010-9243-9240</div>
+        </li>
+      </ul>
 
+      <img src="1.png" class="elements" data-speed="8" />
+      <img src="3.png" class="elements" data-speed="-10" />
+      <img src="4.png" class="elements" data-speed="-6" />
+    </section>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
 </html>
